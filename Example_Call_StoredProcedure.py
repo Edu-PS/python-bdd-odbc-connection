@@ -15,6 +15,8 @@ print(sp)
 # Printing the message
 print('MENSAJE -> ' + message)
 print(cursor.description)
+for a in cursor.description:
+   print(a[0])
 
 # Colecting the return values of Stored Procedure
 rows1 = result.fetchall()
