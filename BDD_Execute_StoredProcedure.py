@@ -6,6 +6,7 @@ def excecute_sp(cursor, StoredProcedure):
         message = 'SP OK - ' + str(StoredProcedure)
     except:
         message = 'SP ERROR - ' + str(StoredProcedure)
+        result = 0
     
     return result, message
 
