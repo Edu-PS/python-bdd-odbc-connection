@@ -1,4 +1,4 @@
-import pyobdc;
+import pyodbc;
 
 def open_connection(odbc):
     # Connect to datasource
